@@ -38,7 +38,7 @@ class Artist
     end
 
     def print_songs
-      @songs.each{|song| print "#{song}"}
+      @songs.map{|song| song}
     end
 
 end
