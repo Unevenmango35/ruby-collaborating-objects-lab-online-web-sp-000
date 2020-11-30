@@ -11,11 +11,11 @@ class Artist
 
   def songs
       @songs
-    end
+  end
 
-    def self.all
-        @@all
-      end
+  def self.all
+      @@all
+  end
 
   def add_song(song)
     @@song_count += 1
